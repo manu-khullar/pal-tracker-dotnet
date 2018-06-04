@@ -22,7 +22,7 @@ jobs:
   - get: PalTracker
     trigger: true
   - task: build and test
-    file: PalTracker/ci/build.yml
+    file: PalTracker/src/PalTracker/ci/build.yml
   - put: deploy
     params:
       manifest: build-output/manifest.yml
