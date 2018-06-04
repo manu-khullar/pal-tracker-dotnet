@@ -1,0 +1,33 @@
+cf-api-url: https://api.sys.pikes.pal.pivotal.io
+cf-username: manu.khullar@aon.com
+cf-password: 5fswj287
+cf-org: manu-khullar
+github-repository: git@github.com:manu-khullar/pal-tracker-dotnet.git
+github-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEAuYN/gIlJmlQTpJnQc/EYPlRQ9TdjfuJedwPtU8CBD0XYDNAS
+  uccIWcG9NP7TghgVHrCZYxx5Ub0loDzm9ITT09Rv593MlncTFAAC7j/h53JLhnjj
+  GmiY2t79i69KYw0SX91TnleflVPwOGh6YAOBr6E9s+8/TXBcCYMYVXKFs921RjzV
+  GucB3KY8VfgouTHiEZIxP8rldoqZHysT2hweW+PJRpbUFukbEW4EVj5w+vEvnicb
+  OERKA5IWJfLev9EHwln0a68+CB59XsbuvzQVrQsjZJeJ4fQQjuZhw/CNNaoUTfkO
+  sUaIT3/be4B6liOKCxJR8yFpjcZlAAo3fTwwBwIDAQABAoIBAAlLCBEVT4WWnqFJ
+  P0L/mdpNePy/uJE7n8XQgYwHga+VLRx/M+Dwkn+EkAjelxPWRwCRki1/2Kf6lK7x
+  PhSTrtTWuIBiAQSslF0VHxB2TMe+VwA2gBHrmXSlZQghUNWjav84ZB7zfsAJQ2hf
+  +3lh05ZLun6QBpjHfyTO12I4aXA4HiacoA06aWcYMUv0On8kusFgbukizrFnaHqZ
+  12DWjtZpDhSe9fo3QJu5I3RXqfsdePizjTMUCmyA2XTqXE7ALpy2cXYpfrnN7VgE
+  YxIIqoCqrp0lQuxFa39qxerS1bOS0TPmaO3hoIud0XO5L8/YmgUOwL+BcJoeaznw
+  HRLOSpECgYEA5Yf52OnPnig06xNydk5MT2IZz9F62pL/7/3bShGhIByHgqD6K2oO
+  Pk8WZ63U0Os4toKnBn1o1p1xYuj1wfXxYfNk2+ahTIgvQoFi6SIM8vSuRUCIrrsG
+  gGJVXXUVMztYyvwBDof8O+iVyQto1ViBDlzpC+lXoxC2UQKgg/xcba8CgYEAzugT
+  Ng/+J0+SRXlMqQgA83J6JtNQwfajY37cEj/KejvwFTwG+TZPr7CpPZDaqtbq6vDi
+  QyfF48zNgFZYfBF/KUlgsOshXlU620TPT+TBuRzcfrW6yoBXZYh7FD8z5JcDA7VX
+  nUNeihAs0L0Vk4mNcI5dOMMMSB8ZLK5RNyK6ESkCgYEA32J00JzNCNmMlvQ4Q9d0
+  ARYylMUE0dCa8dCYKP/7Vist3v4YO0ReVFnYLlNJeYJTkZyaPYC0FZrpDSA4feqE
+  X5XnpPRSKw+nHwyZXNdczt8+8/sYiyVN8IjDF8+pMFEj23li9ed2nj9/90f5YRlf
+  kMDvtj4EopjTNwhde9aRhdUCgYEAm77t1yAqvASVol4wanxv2tEtSdR/UcIKM3bm
+  yYXjMCe2DQXmaemMCj/85S8IqtikdL1mVA64U0Vy20wjxyCUi8uEUShtMckOSMd/
+  FjCn8mPbRjYdqRj6sJ8Ppqn8sfFKf5wdm29+1oZedbIfb7N3GGbRnUyVDiT6mjuN
+  PueRECECgYA+Pw4/sLFLb8Osa1vAGYaSxsr1mdxIVyM0HODsXhxe/93k1YE+zDpV
+  cPGqjVCWOkXmx8s4LeonHG2rHww29dowIdwN774KWxpSRxekdkAvWyA8CCMbxnhf
+  pAQntWAMC59rdJFU2fhELwBYFfCWQ1dr979CNo63wGBv9uWhZlm6KQ==
+  -----END RSA PRIVATE KEY-----
