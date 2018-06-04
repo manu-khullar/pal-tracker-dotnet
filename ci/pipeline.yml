@@ -1,6 +1,6 @@
 ---
 resources:
-- name: PalTracker
+- name: pal-tracker
   type: git
   source:
     uri: {{github-repository}}
@@ -19,10 +19,10 @@ resources:
 jobs:
 - name: build-and-deploy
   plan:
-  - get: PalTracker
+  - get: pal-tracker
     trigger: true
   - task: build and test
-    file: PalTracker/src/PalTracker/ci/build.yml
+    file: pal-tracker/ci/build.yml
   - put: deploy
     params:
       manifest: build-output/manifest.yml
