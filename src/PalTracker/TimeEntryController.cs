@@ -1,57 +1,54 @@
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace PalTracker
 {
+    [Route("/time-entries")]
     public class TimeEntryController : Controller
     {
-        
-        public TimeEntryController(object obj)
+        private readonly ITimeEntryRepository _repository;
+
+        public TimeEntryController(ITimeEntryRepository repository)
         {
-            throw new NotImplementedException();
+            _repository = repository;
         }
 
-         public object Read(int x)
-         {
-             throw new NotImplementedException();
-         }
-
-        public void Read_NotFound()
+        [HttpPost]
+        public IActionResult Create([FromBody] TimeEntry timeEntry)
         {
-             throw new NotImplementedException();
+            var createdTimeEntry = _repository.Create(timeEntry);
+
+            return CreatedAtRoute("GetTimeEntry", new {id = createdTimeEntry.Id}, createdTimeEntry);
         }
 
-        public object Create(TimeEntry t)
+        [HttpGet("{id}", Name = "GetTimeEntry")]
+        public IActionResult Read(long id)
         {
-            throw new NotImplementedException();
+            return _repository.Contains(id) ? (IActionResult) Ok(_repository.Find(id)) : NotFound();
         }
 
-        public object List()
+        [HttpGet]
+        public IActionResult List()
         {
-             throw new NotImplementedException();
+            return Ok(_repository.List());
         }
 
-        public object Update(int x, TimeEntry update)
+        [HttpPut("{id}")]
+        public IActionResult Update(long id, [FromBody] TimeEntry timeEntry)
         {
-            throw new NotImplementedException();  
-
+            return _repository.Contains(id) ? (IActionResult) Ok(_repository.Update(id, timeEntry)) : NotFound();
         }
 
-        public void Update_NotFound()
+        [HttpDelete("{id}")]
+        public IActionResult Delete(long id)
         {
-             throw new NotImplementedException();
+            if (!_repository.Contains(id))
+            {
+                return NotFound();
+            }
+
+            _repository.Delete(id);
+
+            return NoContent();
         }
-
-        public object Delete(int x)
-        { 
-            throw new NotImplementedException();
-        }
-
-
-        public void Delete_NotFound()
-        {
-             throw new NotImplementedException();
-        }
-
     }
 }
